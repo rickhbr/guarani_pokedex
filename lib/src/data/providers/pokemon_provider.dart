@@ -28,11 +28,9 @@ class PokemonProvider {
           PokemonModel pokemon =
               PokemonModel.fromJson(detailResult['response']);
 
-          String speciesUrl = detailResult['response']['species']
-              ['url']; // Obtain species URL from Pokemon details
+          String speciesUrl = detailResult['response']['species']['url'];
           String description = await fetchPokemonSpeciesDescription(speciesUrl);
-          pokemon.description =
-              description; // Assuming you have a description field in your PokemonModel
+          pokemon.description = description;
 
           for (var type in pokemon.types!) {
             var typeRelations = await fetchTypeRelations(
