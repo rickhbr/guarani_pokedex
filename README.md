@@ -1,17 +1,41 @@
-# guarani_pokedex
-# guarani_poke_test
+# Guarani Pokedéx Teste 🚀
 
-A new Flutter project.
+## Índice
+- [Sobre](#sobre)
+- [Instalação](#instalação)
+- [Tecnologias](#tecnologias)
+- [Agradecimento](#agradecimento)
 
-## Getting Started
+## Sobre
 
-This project is a starting point for a Flutter application.
+O aplicativo é um teste técnico para a empresa Guarani Sistemas para Gestão, onde foi utilizado a API do Pokemon para implementar alguns requisitos.
 
-A few resources to get you started if this is your first Flutter project:
+## Instalação
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+**Pré-requisitos:** 
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Clone este repositório
+git clone https://github.com/rickhbr/guarani_pokedex
+
+# Vá para a pasta do projeto
+cd nome_da_pasta
+
+# Abra em qualquer editor de sua preferência
+Visual Studio, Android Studio, etc...
+
+# Instale as dependências
+flutter pub get
+
+# Rode o projeto
+flutter run / executar
+
+## Tecnologias
+
+GetX Patterns
+Gerenciamento de estado: GetX
+Dio
+SOLID / Clean Arch
+
+## Agradecimento
+
+Gostaria de agradecer pela oportunidade de estar fazendo o teste, o aplicativo é muito legal e utiliza bastante recursos para ser desenvolvido. Espero que gostem e que dêem um oportunidade para estar fazendo parte do time! :)
